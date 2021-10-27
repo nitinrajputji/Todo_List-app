@@ -1,0 +1,44 @@
+.main-div {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+.main-content {
+  position: relative;
+}
+.addicon {
+  position: absolute;
+  right: 10px;
+  top: 2px;
+}
+
+.items {
+  width: 200px;
+  height: 35px;
+  border: 2px solid black;
+  margin: 10px;
+  text-align: left;
+  position: relative;
+  padding: 2px;
+}
+
+.deleteicon {
+  position: absolute;
+  right: 5px;
+  top: 2px;
+}
+
+.createicon {
+  position: absolute;
+  right: 30px;
+  top: 2px;
+}
